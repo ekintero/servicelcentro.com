@@ -1,0 +1,7 @@
+[24-Oct-2018 01:44:46 UTC] PHP Warning:  sprintf(): Too few arguments in /home/servidel/public_html/servidelcentro.com.mx/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[24-Oct-2018 01:44:57 UTC] PHP Warning:  sprintf(): Too few arguments in /home/servidel/public_html/servidelcentro.com.mx/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[24-Oct-2018 01:45:24 UTC] PHP Warning:  sprintf(): Too few arguments in /home/servidel/public_html/servidelcentro.com.mx/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[24-Oct-2018 01:48:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/servidel/public_html/servidelcentro.com.mx/wp-content/themes/flatsome/inc/admin/envato_setup/envato_setup.php on line 1733
+[24-Oct-2018 01:57:32 UTC] PHP Fatal error:  Out of memory (allocated 18874368) (tried to allocate 32768 bytes) in /home/servidel/public_html/servidelcentro.com.mx/wp-content/plugins/jetpack/class.jetpack.php on line 5721
+[24-Oct-2018 03:24:47 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 65536 bytes) in /home/servidel/public_html/servidelcentro.com.mx/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store.php on line 364
+[21-Nov-2018 04:11:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/servidel/public_html/servidelcentro.com.mx/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 633
