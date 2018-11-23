@@ -1,0 +1,6 @@
+2018-10-24T01:57:32+00:00 CRITICAL Out of memory (allocated 56623104) (tried to allocate 8192 bytes) en /home/servidel/public_html/servidelcentro.com.mx/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php en la línea 765
+
+2018-10-24T01:57:32+00:00 CRITICAL Out of memory (allocated 56623104) (tried to allocate 8192 bytes) en /home/servidel/public_html/servidelcentro.com.mx/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php en la línea 765
+
+2018-10-24T01:57:33+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 32768 bytes) en /home/servidel/public_html/servidelcentro.com.mx/wp-content/themes/flatsome/inc/builder/shortcodes/ux_pages.php en la línea 1
+
