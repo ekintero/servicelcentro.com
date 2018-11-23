@@ -1,0 +1,20 @@
+
+RewriteEngine On
+RewriteCond %{ENV:HTTPS} !on [NC]
+RewriteCond %{QUERY_STRING} !wc-api [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?servidelcentro.com.mx
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://www.servidelcentro.com.mx/$1 [R=301,L,NE]
+ 
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
